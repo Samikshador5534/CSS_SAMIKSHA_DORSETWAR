@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* background-color: rgb(235, 194, 180); */
+        margin-top: 180px;
+        background-image: url("/images/slide.webp");
+      }
+      .product {
+        justify-content: center;
+        text-align: center;
+      }
+      .catbox {
+        background-color: rgb(55, 131, 208);
+        
+        align-items: center;
+        block-size: 200px;
+        padding-block-start: 60px;
+        margin-left: 450px;
+        margin-right: 450px;
+        border-radius: 30px;
+      }
+      input {
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 40px;
+      }
+      button:hover{
+        color: white;
+        cursor: pointer;
+      }
+      caption > iput{
+        margin-top: 40px;
+        padding: 30px;
+        font-style: italic;
+      }
+   
+    </style>
+  </head>
+  <body>
+    <div class="product">
+        <form action="https://www.w3schools.com/howto/howto_css_input_navbar.asp">
+      <div class="catbox">
+        <caption >Login Form</caption>
+        <input
+          style="border: 3px solid brown"
+          type="text"
+          placeholder="ENTER USERNAME"
+        />
+        <br />
+        <input
+          style="border: 3px solid brown"
+          type="text "
+          placeholder="ENTER PASSWORD"
+        />
+        <br />
+        <!-- <button onclick="login()">LOGIN</button><br /> -->
+       
+        <a  href="/home"><button  style="width: 100px;  height: 30px;   border: 2px solid rgb(219, 143, 219); border-radius: 5px; background-color: rgb(58, 58, 160);  "    id="submitBtn">LOGIN</button></a>
+
+    
+
+        <p id="error"></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
